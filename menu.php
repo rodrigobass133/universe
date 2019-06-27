@@ -24,8 +24,32 @@
     <div class="font-main">
         <div class="text-center">
             <!--<h1 class="mt-6">UCB <p>UNIVERSE</p></h1>-->
-            <div class="mt-6">
-                <img src="pix/title.png" alt="some text">
+            <div class="mt-3">
+                <img src="pix/title.png" alt="some text" width="400" height="100">
+            </div>
+            <div class="title-sub, mt-5">
+                <h2>Menu</h2>
+            </div>
+            <div class="row justify-content-md-center">
+            <div class="col-6">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="enigmas.php">> ENIGMAS </a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">> QR CODE</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">> VIDEOS</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">> COMPARTILHE SUA JORNADA</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">> PRECISA DE AJUDA?</a></li>
+                </ol>
+            </nav>
+            </div>
             </div>
         </div>
 

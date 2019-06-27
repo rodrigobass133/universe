@@ -48,6 +48,17 @@
     }
 }
 
+.title-sub {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.btn-corner {
+    align-items: end;
+}
+
 .m-0 {
     margin: 0!important
 }

@@ -24,26 +24,36 @@
     <div class="font-main">
         <div class="text-center">
             <!--<h1 class="mt-6">UCB <p>UNIVERSE</p></h1>-->
-            <div class="mt-6">
-                <img src="pix/title.png" alt="some text">
+            <div class="mt-3">
+                <img src="pix/title.png" alt="some text" width="400" height="100">
             </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col-6, mt-6">
-                <div class="f-black">
-                    <div class="card">
-                        <div class="card-header">
-                            Bem vindo ao UCB UNIVERSE!!!
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Vamos decolar nessa aventura!</p>
-                            <a href="abertura.php"><button class="flash button">Press Start!</button></a>
-                        </div>
-                    </div>
+            <div class="title-sub, mt-5">
+                <h2>ENIGMAS</h2>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-6">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page"><a href="abreEnigma.php">> ENIGMA 1</a></li>
+                        </ol>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page"><a href="">> ENIGMA 2</a></li>
+                        </ol>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page"><a href="">> ENIGMA 3</a></li>
+                        </ol>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page"><a href="">> ENIGMA 4</a></li>
+                        </ol>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page"><a href="">> ENIGMA 5</a></li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
+
+
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

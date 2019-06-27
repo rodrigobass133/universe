@@ -10,8 +10,40 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/starWars.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css" rel="stylesheet">
 
+    <div class="background">
+    <div class="shadow"></div>
+    <img src="pix/title.png" class="logo" />
+    <div class="btn-corner">
+        <img src="pix/next.png" class="">
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h1 class="titulo">Episode VII</h1>
+            <h2 class="subtitulo">The force awakens</h2>
+            <p>
+                It is a time of hope for the restored Republic. The last Imperial
+                loyalists have been pushed back to the Outer Rim Territories.
+            </p>
+            <p>
+                Chased across the galaxy by the Republic, the last remnants of the
+                Galactic Empire have started raiding outposts in the outlying systems,
+                desperate to replenish their dwindling supplies.
+            </p>
+            <p>
+                With a large Republic fleet closing in on their position, the
+                Imperials gather above the Outer Rim world of Tatooine, ready to make
+                their last stand...
+            </p>
+        </div>
+    </div>
+
+    </div>
+    <audio autoplay>
+        <source src="audio/starWars.mp3" type="audio/mpeg" />
+    </audio>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,32 +52,7 @@
     <![endif]-->
 </head>
 <body>
-<div class="background">
-    <div class="font-main">
-        <div class="text-center">
-            <!--<h1 class="mt-6">UCB <p>UNIVERSE</p></h1>-->
-            <div class="mt-6">
-                <img src="pix/title.png" alt="some text">
-            </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col-6, mt-6">
-                <div class="f-black">
-                    <div class="card">
-                        <div class="card-header">
-                            Bem vindo ao UCB UNIVERSE!!!
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Vamos decolar nessa aventura!</p>
-                            <a href="abertura.php"><button class="flash button">Press Start!</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

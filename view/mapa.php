@@ -8,8 +8,8 @@
     <title>UCB UNIVERSE</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,37 +22,39 @@
 <body>
 <div class="background">
     <div class="font-main">
-        <div class="container">
+    <div class="container">
+    <div class="row justify-content-md-center">
+    <div class="col-md-auto">
 
+        <div class="text-center">
             <!--<h1 class="mt-6">UCB <p>UNIVERSE</p></h1>-->
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto mt-6">
-                    <img src="pix/title.png" alt="some text" width="100%" height="100%">
-                </div>
+            <div class="mt-3">
+                <img src="../pix/title.png" alt="some text" width="30%" height="15%">
             </div>
-
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto mt-6">
-                    <div class="f-black">
-                        <div class="card">
-                            <div class="card-header">
-                                Bem vindo ao UCB UNIVERSE!!!
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text">Vamos decolar nessa aventura!</p>
-                                <a href="view/abertura.php"><button class="flash button">Press Start!</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="title-sub, mt-2">
+                Mapa
             </div>
         </div>
+    </div>
+    </div>
+    <div class="row ml-3 sun-position">
+        <div class="col-10 col-md-6">
+        <img src="../pix/planets/sun.png" width="100%">
+        </div>
+    </div>
+    <div class="row planetS-position">
+        <div class="col col-md-3"> </div>
+        <div class="col col-md-3"> </div>
+        <div class="col col-md-3"><img src="../pix/planets/planetaS.png" width="100%"> </div>
+        <div class="col col-md-3"> </div>
+    </div>
+
+    </div>
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

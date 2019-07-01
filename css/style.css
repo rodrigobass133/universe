@@ -1,7 +1,7 @@
 .background{
     background-image: url('../pix/espacoBack.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -49,14 +49,29 @@
 }
 
 .title-sub {
-    font-family: 'Press Start 2P', cursive;
-    font-weight: normal;
-    font-style: normal;
-    color: #ffffff;
+    width: 10%;
+    height: 10%;
+}
+
+.sun-position {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 45%;
+}
+
+.planetS-position {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 20%;
 }
 
 .btn-corner {
-    align-items: end;
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    align-items: flex-end;
 }
 
 .m-0 {
